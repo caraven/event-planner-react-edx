@@ -1,5 +1,6 @@
 import React from 'react';
 import './EventPlanner.css'; // Import CSS file for styling
+import Footer from './Footer';
 
 const EventPlanner = () => {
     return (
@@ -90,9 +91,10 @@ const EventPlanner = () => {
                     {/* Área de texto para el mensaje */}
                     <textarea placeholder='Mensaje'></textarea>
                     {/* Botón de enviar */}
-                    <button className='submit-button'>Envia</button>
+                    <button className='submit-button'>Enviar</button>
                     
-                </form>
+                </form
+            <Footer/>>
             </section>
         </div>
     );
