@@ -92,10 +92,9 @@ const EventPlanner = () => {
                     <textarea placeholder='Mensaje'></textarea>
                     {/* Botón de enviar */}
                     <button className='submit-button'>Enviar</button>
-                    
-                </form
-            <Footer/>>
+                </form>
             </section>
+            <Footer/>
         </div>
     );
 };
